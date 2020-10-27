@@ -1,0 +1,10 @@
+# Do not include azure-functions-worker as it may conflict with the Azure Functions platform
+
+azure-functions
+azure-keyvault
+azure-identity
+azure-cli-core
+msrestazure==0.6.3
+azure-keyvault-secrets
+msal==1.3.0
+msal-extensions~=0.1.3
