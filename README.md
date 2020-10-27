@@ -12,3 +12,4 @@
     
     * VaronisAssignmentKv3: VaronisAssignmentSecretKv3, VaronisAssignment
     
+* You can find screen shots under the screenshots folder
