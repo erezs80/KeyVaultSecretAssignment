@@ -32,9 +32,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             name = req_body.get('name')
 
     if name:
-        retrieved_secret = {}
         retrieved_secrets = []
         for vault in keyVaultNames:
+            retrieved_secret = {}
             KVUri = f"https://{vault}.vault.azure.net"
             client = SecretClient(vault_url=KVUri, credential=credentials)
             try:
